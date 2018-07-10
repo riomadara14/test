@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(../images/header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.container {
+	width: 300vh;
+	height: 100%;
+	border: 5px solid black;
+}
