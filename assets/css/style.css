@@ -13,7 +13,7 @@ body{
 	-o-background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
-	background-blend-mode: all;
+	/*background-blend-mode: all;*/
 }
 
 .container{
@@ -184,7 +184,7 @@ a:hover{
 }
 
 .ab h3{
-	margin-top: 20px;s
+	margin-top: 20px;
 }
 
 .ab h1{
@@ -471,6 +471,37 @@ small{
 
 }
 
+.row{
+	width: 100%;
+	/*position: fixed;*/
+	margin-left: 1px;
+
+
+}
+
+.column{
+	margin-left: 100px;
+}
+
+.about{
+	margin-left: 1px;
+	margin-top: 400px;
+
+}
+
+.ab{
+	padding-right: 20px;
+}
+
+.about{
+	min-height: 1300px;
+}
+
+
+.cont{
+	margin-left: 1px;
+	margin-left: 40px;
+}
 .header a{
 	margin-right: 20px;
 
@@ -478,6 +509,26 @@ small{
 
 
 }
+
+textarea{
+	width: 100%;
+}
+
+.footer{
+	margin-top: 100px;
+}
+
+
+.coll{
+	width: 678px;
+	/*margin-left: 100px;*/
+}
+
+.cont{
+	width: 90%;
+	min-height: 1300px;
+}
+
 
 [class*="col"]{
 	/*border: 5px solid white;*/
@@ -510,6 +561,30 @@ small{
 	height: 60px;
 }
 
+.column{
+	/*width: 60%;*/
+	height: 300px;
+}
+
+.one{
+	margin-left: 220px;
+}
+
+.two{
+	margin-top: 150px;
+	margin-left: 220px;
+}
+
+.three{
+	margin-top: 150px;
+	margin-left: 220px;
+}
+
+.four{
+	margin-top: 150px;
+	margin-left: 220px;
+}
+
 
 
 
@@ -517,7 +592,7 @@ small{
 
 /*mobile*/
 
-@media only screen and (max-width: 401px){
+@media only screen and (max-width: 450px){
 	
 
 .col-sm-1{
@@ -612,8 +687,49 @@ small{
 .row{
 	top: 200px;
 	height: 100px;
+	width: 100%;
+	margin-left: 60px;
 }
 
+.column{
+	margin-top: 150px;
+}
+
+.about{
+	min-height: 1900px;
+	margin-left: 20px;
+	width: 441px;
+	/*margin: auto;*/
+}
+
+
+.cont{
+	/*width:80%;*/
+	/*width: 441px;*/
+	/*margin-left: 2px;*/
+	/*margin-left: 20px;*/
+	/*position: relative;*/
+	margin-right: 20px;
+	min-height: 1100px;
+	width: 415px;
+
+
+
+}
+
+.footer{
+	width: 485px;
+	min-height: 80px;
+}
+
+.coll{
+	min-height: 470px;
+	width: 407px;
+}
+
+.right{
+	min-height: 350px;
+}
 
 
 
