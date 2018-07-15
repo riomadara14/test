@@ -134,6 +134,8 @@ a:hover{
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
+	border: 5px solid white;
+
 
 }
 
@@ -342,7 +344,8 @@ small{
 	background-color: white;
 	border-top-left-radius: 80px;
 	border-bottom-right-radius: 80px;
-	margin-top: 30px;	
+	margin-top: 30px;
+	border: 5px solid black;	
 
 }
 
